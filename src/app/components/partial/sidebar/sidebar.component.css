@@ -1,0 +1,5 @@
+.app-sidebar, .app-sidebar .mat-drawer-content{ position:static; }
+.app-sidebar .mat-drawer{ left: 0px; }
+.mat-sidenav-open{position: absolute; top: 19px; left: 15px;}
+.mat-sidenav{ padding:60px 15px 15px;  background:#f1f7f3;}
+.mat-sidenav-close{position: absolute; right: 0; top: 0; }

@@ -1,0 +1,23 @@
+/*Background*/
+body{ background:#f1f7f3; }
+.app-footer, .mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+background-color: #3c5a56;} 
+.mat-card, .app-header { background: #d9e9df;}
+/*/Background*/
+
+.mat-sidenav-open{position: absolute; top: 0; left: 0;}
+.mat-sidenav .mat-list{ cursor:pointer; }
+.app-footer{ padding: 15px; color: #fff; position: fixed; width: 100%; bottom: 0; left: 0; }
+.container { max-width: inherit;}
+.header-logo img{ max-width:180px; }
+
+/*Breadcrumbs*/
+.app-breadcrumbs{ box-shadow:none !important; }
+.app-breadcrumbs .mat-list{ padding-top: 0px; }
+.app-breadcrumbs .mat-list .mat-list-item{ width:auto; display:inline-block; height:auto; position:relative;}
+.app-breadcrumbs .mat-list .mat-list-item .mat-list-item-content{}
+.app-breadcrumbs .mat-list .mat-list-item:first-child .mat-list-item-content{ padding-left:0px; }
+.app-breadcrumbs .mat-list .mat-list-item:after{content:'>'; position: absolute; right: -4px; top: 0;}
+.app-breadcrumbs .mat-list .mat-list-item:last-child, .app-breadcrumbs .mat-list .mat-list-item:nth-last-child(2):after{ opacity:0.4; }
+.app-breadcrumbs .mat-list .mat-list-item:last-child:after{ display:none; }
+/*Breadcrumbs End*/

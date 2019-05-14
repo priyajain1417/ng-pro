@@ -1,0 +1,30 @@
+<mat-sidenav-container class="app-sidebar">
+    <mat-sidenav #sidenav="" [mode]="mode.value">
+        <button (click)="sidenav.toggle()" class="mat-sidenav-close" mat-icon-button="">
+            <mat-icon>
+                close
+            </mat-icon>
+        </button>
+        <mat-list role="list">
+            <mat-list-item role="listitem" routerLink="" (click)="sidenav.toggle()">
+                Dashboard
+            </mat-list-item>
+            <mat-list-item role="listitem" routerLink="/maintenance" (click)="sidenav.toggle()">
+                Maintenance
+            </mat-list-item>
+            <mat-list-item role="listitem" routerLink="/reports" (click)="sidenav.toggle()">
+                Reports
+            </mat-list-item>
+            <mat-list-item role="listitem" routerLink="/administration" (click)="sidenav.toggle()">
+                Administration
+            </mat-list-item>
+        </mat-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <button (click)="sidenav.toggle()" class="mat-sidenav-open" mat-icon-button="">
+            <mat-icon>
+                menu
+            </mat-icon>
+        </button>
+    </mat-sidenav-content>
+</mat-sidenav-container>
