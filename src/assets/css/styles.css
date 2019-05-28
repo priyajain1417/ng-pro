@@ -1,5 +1,5 @@
 /*Background*/
-body{ background:#f1f7f3; }
+body{ background:#f1f7f3; padding-bottom: 53px; }
 .app-footer, .mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
 background-color: #3c5a56;} 
 .mat-card, .app-header { background: #d9e9df;}
@@ -21,3 +21,6 @@ background-color: #3c5a56;}
 .app-breadcrumbs .mat-list .mat-list-item:last-child, .app-breadcrumbs .mat-list .mat-list-item:nth-last-child(2):after{ opacity:0.4; }
 .app-breadcrumbs .mat-list .mat-list-item:last-child:after{ display:none; }
 /*Breadcrumbs End*/
+
+
+.mat-paginator { background: #d9e9df;}
