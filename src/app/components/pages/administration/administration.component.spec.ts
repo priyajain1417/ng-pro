@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { AdministrationComponent } from './administration.component';
+import {MatListModule} from '@angular/material/list';
+import {MatCardModule} from '@angular/material/card';
 
 describe('AdministrationComponent', () => {
   let component: AdministrationComponent;
@@ -8,7 +9,8 @@ describe('AdministrationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AdministrationComponent ]
+      declarations: [ AdministrationComponent ],
+      imports: [MatListModule, MatCardModule ],     
     })
     .compileComponents();
   }));

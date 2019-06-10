@@ -41,14 +41,15 @@ typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers', 
 
   ngOnInit() {
   	 this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+   // this.data
+   // Source.sort = this.sort;    
   }
 
   applyFilter(filterValue: string) {
     this.dataSource.filter = filterValue.trim().toLowerCase();
 
     if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
+      this.dataSource.paginator.firstPage();      
     }
   }
 }
